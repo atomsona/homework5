@@ -1,0 +1,37 @@
+.counter-click {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #d1c4e9, #b39ddb);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .counter-click h1 {
+    font-size: 2em;
+    color: #6a1b9a;
+    margin-bottom: 10px;
+  }
+  
+  .counter-click p {
+    font-size: 1.5em;
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  .counter-click button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: white;
+    background-color: #8e24aa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .counter-click button:hover {
+    background-color: #7b1fa2;
+  }
